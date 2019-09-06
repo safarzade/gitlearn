@@ -1,0 +1,32 @@
+git config --global -l
+git config --global user.name ""
+git config --global user.mail ""
+
+git init
+git add . or git add -A or git add --all
+git add -u
+git commit -m ""
+git commit -a -m "" or git commit -am ""
+git commit --amend -m ""
+
+git log --oneline
+git log -7
+git log -p
+
+git diff
+git diff --staged
+
+git reset Head 1.txt
+git checkout -- 1.txt
+
+git rm 1.txt
+git rm --cached -r 1.txt = git checkout -- 1.txt
+
+git mv 1.txt 01.txt
+git mv 1.txt dir/01.txt
+
+git branch
+git branch b_name	\
+			 > git checkout -b b_name
+git checkout b_name	/
+git merge
