@@ -37,5 +37,14 @@ git branch b_name	\
 git checkout b_name	/
 git branch -d b_name
 
-git merge
+git merge b_name
 <git log --graph>
+
+git stash
+git stash list
+git stash drop stash@{0}
+git stash save ""
+git stash show stash@{0}
+git stash show -p stash@{0}
+git stash apply stash@{0}
+git stash pop stash@{0}
