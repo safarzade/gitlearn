@@ -33,9 +33,9 @@ git reset --hard 1e70ba8
 git branch
 git branch -a
 git branch b_name	\
-			 		 > git checkout -b b_name
+			 > git checkout -b b_name
 git checkout b_name	/
 git branch -d b_name
 
 git merge
-(git log --graph)
+<git log --graph>
