@@ -25,6 +25,10 @@ git rm --cached -r 1.txt = git checkout -- 1.txt
 git mv 1.txt 01.txt
 git mv 1.txt dir/01.txt
 
+git reset --soft 1e70ba8
+git reset --mixed 1e70ba8
+git reset --hard 1e70ba8
+
 git branch
 git branch b_name	\
 			 > git checkout -b b_name
