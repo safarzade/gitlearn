@@ -12,6 +12,7 @@ git commit --amend -m ""
 git log --oneline
 git log -7
 git log -p
+git log --graph
 
 git diff
 git diff --staged
@@ -30,7 +31,11 @@ git reset --mixed 1e70ba8
 git reset --hard 1e70ba8
 
 git branch
+git branch -a
 git branch b_name	\
-			 > git checkout -b b_name
+			 		 > git checkout -b b_name
 git checkout b_name	/
+git branch -d b_name
+
 git merge
+(git log --graph)
