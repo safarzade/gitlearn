@@ -48,3 +48,6 @@ git stash show stash@{0}
 git stash show -p stash@{0}
 git stash apply stash@{0}
 git stash pop stash@{0}
+
+.gitignore
+git rm --cached -r -> git add . اگر فایلی قبلا دنبال میشده الان تصمیم گرفتیم که دیگر دنبال نشه از روش مقابل استفاده میکنیم
