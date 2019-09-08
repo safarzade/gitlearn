@@ -51,3 +51,9 @@ git stash pop stash@{0}
 
 .gitignore
 git rm --cached -r -> git add . اگر فایلی قبلا دنبال میشده الان تصمیم گرفتیم که دیگر دنبال نشه از روش مقابل استفاده میکنیم
+
+git remote add origin https...
+git push -u origin master
+git push
+git pull
+git clone https... [name_project]
